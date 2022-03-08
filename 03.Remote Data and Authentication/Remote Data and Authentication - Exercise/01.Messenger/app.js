@@ -1,9 +1,13 @@
-function attachEvents() {
-    document.querySelector('#submit').addEventListener('click', sendMessage);
-    document.querySelector('#refresh').addEventListener('click', getMessage);
-} 
+//
 
-attachEvents();
+function attachEvents() {
+    document.getElementById('submit').addEventListener('click', sendMessage);
+    document.getElementById('refresh').addEventListener('click', getMessage);
+}
+
+attachEvents()
+
+//
 
 async function sendMessage() {
     const author = document.getElementById('author').value;
@@ -24,6 +28,8 @@ async function sendMessage() {
 
     getMessage();
 }
+
+//
 
 async function getMessage() {
     const response = await fetch('http://localhost:3030/jsonstore/messenger');

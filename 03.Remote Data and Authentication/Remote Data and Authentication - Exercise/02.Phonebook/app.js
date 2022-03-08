@@ -1,12 +1,14 @@
 function attachEvents() {
-    document.querySelector('#btnLoad').addEventListener('click', loadPosts);
-    document.querySelector('#btnCreate').addEventListener('click', createPost);
+    document.getElementById('btnLoad').addEventListener('click', loadPosts);
+    document.getElementById('btnCreate').addEventListener('click', createPost);
 }
 
 attachEvents();
 
+//
+
 async function loadPosts() {
-    const ul = document.querySelector('#phonebook');
+    const ul = document.getElementById('phonebook');
     const response = await fetch('http://localhost:3030/jsonstore/phonebook');
     const data = await response.json();
 
@@ -17,6 +19,8 @@ async function loadPosts() {
         .forEach((p) => ul.appendChild(p))
 }
 
+//
+
 async function deletePost(event) {
     const id = event.target.parentNode.id;
     const url = `http://localhost:3030/jsonstore/phonebook/` + id
@@ -25,12 +29,14 @@ async function deletePost(event) {
         method: 'delete',
         headers: { 'Content-Type': 'application/json' },
     })
-    event.target.parentNode.remove();
+    event.target.parentNode.remove();    
 }
 
+//
+
 async function createPost() {
-    const person = document.querySelector('#person').value;
-    const phone = document.querySelector('#phone').value;
+    const person = document.getElementById('person').value;
+    const phone = document.getElementById('phone').value;
 
     if (person && phone) {
         const response = await fetch('http://localhost:3030/jsonstore/phonebook', {
@@ -44,6 +50,8 @@ async function createPost() {
         return alert('All fileds are required!');
     }
 }
+
+//
 
 function createElement({ person, phone, _id }) {
     const contact = document.createElement('li');
