@@ -3,9 +3,11 @@
     document.querySelector('#submit').addEventListener('click', sendStudent)
 })();
 
+//
+
 async function getStudents() {
     const tableBody = document.querySelector('tbody');
-    tableBody.innerHTML = ''
+    tableBody.innerHTML = '';
     const response = await fetch('http://localhost:3030/jsonstore/collections/students');
     const data = await response.json();
 
@@ -13,6 +15,8 @@ async function getStudents() {
         .map(createStudents)
         .forEach((s) => tableBody.append(s));
 }
+
+//
 
 function createStudents({ facultyNumber, firstName, grade, lastName }) {
     const tr = document.createElement('tr');
@@ -25,6 +29,8 @@ function createStudents({ facultyNumber, firstName, grade, lastName }) {
     return tr;
 }
 
+//
+
 function createElement(type, text) {
     const element = document.createElement(type);
     element.textContent = text;
@@ -32,14 +38,20 @@ function createElement(type, text) {
     return element;
 }
 
+//
+
 async function sendStudent(event) {
     event.preventDefault();
 
     const form = Array.from(document.querySelectorAll('div>input'))
     const values = form.map((e) => e.value);
 
+    // 
+
     form.map((input) => (input.value = ''));
     const [firstName, lastName, facultyNumber, grade] = values;
+
+    //
 
     if (isNaN(grade) || isNaN(facultyNumber)) {
         return alert('Grade and Faculty Number must be Number');
@@ -49,11 +61,14 @@ async function sendStudent(event) {
         alert('All fields are required!');
     }
 
+    //
+
     const response = await fetch('http://localhost:3030/jsonstore/collections/students', {
         method: 'post',
         headers: { 'Content-Type': 'applications/json' },
         body: JSON.stringify({ firstName, lastName, facultyNumber, grade })
     })
+
 
     return getStudents();
 }

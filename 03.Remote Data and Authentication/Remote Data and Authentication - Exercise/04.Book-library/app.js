@@ -72,7 +72,6 @@ async function deleteBook(id) {
     getAllBooks();
 }
 
-
 function handleTableClick(event) {
     if (event.target.className == 'editBtn') {
         document.getElementById('createForm').style.display = 'none';
@@ -104,6 +103,7 @@ function start() {
 }
 
 start();
+
 async function loadBookForEditting(id) {
     const book = await request('http://localhost:3030/jsonstore/collections/books/' + `${id}`);
 
