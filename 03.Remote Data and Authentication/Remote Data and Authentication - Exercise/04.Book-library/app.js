@@ -1,4 +1,8 @@
+
+
 document.getElementById('editForm').style.display = 'none';
+
+//Създаване на функция, получаваща данни от сървъра
 async function getAllBooks() {
     document.querySelector('tbody').innerHTML = '';
     const tbody = document.querySelector('tbody');
@@ -20,6 +24,7 @@ async function getAllBooks() {
     }
 }
 
+//Създаване на функция за "публикуване" на книга
 async function createBook(event) {
     event.preventDefault();
 
@@ -30,9 +35,11 @@ async function createBook(event) {
         title: form.get('title')
     }
 
+    //В случай, че полетата са празни, да върне съобщение за грешка
     if (book.author == '' || book.title == '') {
         return alert('All fields are required!');
     }
+
 
     await request('http://localhost:3030/jsonstore/collections/books', {
         method: 'post',
@@ -43,6 +50,7 @@ async function createBook(event) {
     getAllBooks();
 }
 
+//Създаване на функция за редактиране
 async function updateBook(event) {
     event.preventDefault();
 
@@ -65,6 +73,7 @@ async function updateBook(event) {
     getAllBooks();
 }
 
+//Създаване на функция за изтриване
 async function deleteBook(id) {
     await request('http://localhost:3030/jsonstore/collections/books/' + id, {
         method: 'delete'
