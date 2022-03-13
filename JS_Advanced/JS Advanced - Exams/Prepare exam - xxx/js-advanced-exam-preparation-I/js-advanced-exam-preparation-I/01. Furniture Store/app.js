@@ -11,7 +11,7 @@ function solve() {
     addButtonElement.addEventListener('click', (e) => {
         e.preventDefault(); // default-тното поведение е рефреш на страницата и с това ние спираме това действие
 
-        let model = modelInputElement.value; 
+        let model = modelInputElement.value;
         let description = descriptionInputElement.value;
         let year = Number(yearInputElement.value); // parse-ваме към number
         let price = Number(priceInputElement.value); // parse-ваме към number
@@ -40,7 +40,7 @@ function solve() {
         let yearContentElement = document.createElement('td'); // 
         let descriptionContentElement = document.createElement('td'); // 
         let totalPriceElement = document.querySelector('.total-price'); //
-        
+
         modelCellElement.textContent = model;
         priceCellElement.textContent = price.toFixed(2);
 
@@ -62,7 +62,7 @@ function solve() {
             let currentTotalPrice = Number(totalPriceElement.textContent);
             let totalPrice = currentTotalPrice + price;
             totalPriceElement.textContent = totalPrice.toFixed(2);
-            
+
             rowElement.remove();
             contentsRowElement.remove();
         });

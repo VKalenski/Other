@@ -1,60 +1,74 @@
 window.addEventListener('load', solve);
 
 function solve() {
-
     // Logic for getting information from the hired form   
-    const addBtn = document.getElementById('add-worker');
-    const firstName = document.getElementById('fname');
-    const lastName = document.getElementById('lname');
-    const email = document.getElementById('email');
-    const dataOfBirth = document.getElementById('birth');
-    const position = document.getElementById('position');
-    const salary = document.getElementById('salary');
-    const newBody = document.getElementById('tbody');
+    const addBtn = document.getElementById('add-worker'); // референция към съответен DOM обект
+    const firstName = document.getElementById('fname'); // референция към съответен DOM обект
+    const lastName = document.getElementById('lname'); // референция към съответен DOM обект
+    const email = document.getElementById('email'); // референция към съответен DOM обект
+    const dataOfBirth = document.getElementById('birth'); // референция към съответен DOM обект
+    const position = document.getElementById('position'); // референция към съответен DOM обект
+    const salary = document.getElementById('salary'); // референция към съответен DOM обект
+    const newBody = document.getElementById('tbody'); // референция към съответен DOM обект
 
     // Attach event listeners to input form
     addBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-    })
+        e.preventDefault();        
 
-    let fName = firstName.value;
-    let lName = lastName.value;
-    let eMail = email.value;
-    let dOfBirth = dataOfBirth.value;
-    let pos = position.value;
-    let sal = Number(salary.value);
+        let fName = firstName.value; //
+        let lName = lastName.value; //
+        let eMail = email.value; //
+        let dOfBirth = dataOfBirth.value; //
+        let pos = position.value; //
+        let sal = Number(salary.value); //         
 
-    firstName.value = '';
-    lastName.value = '';
-    email.value = '';
-    dataOfBirth.value = '';
-    position.value = '';
-    salary.value = '';
-    newBody.value = '';
+        firstName.value = ''; //
+        lastName.value = ''; //
+        email.value = ''; //
+        dataOfBirth.value = ''; //
+        position.value = ''; //
+        salary.value = ''; //
+            
+        if (!fName || !lName || !eMail || !dOfBirth || !pos) {
+            return;
+        }
 
-    let rowElement = document.createElement('tr'); // Създаване на цял нов ред
-    let firstNameCell = document.createElement('td'); // Създаване на колона в реда
-    let lastNameCell = document.createElement('td'); // Създаване на колона в реда
-    let emailCell = document.createElement('td'); // Създаване на колона в реда
-    let dataOfBirthCell = document.createElement('td'); // Създаване на колона в реда
-    let positionCell = document.createElement('td'); // Създаване на колона в реда
-    let salaryCell = document.createElement('td'); // Създаване на колона в реда  
+        if (sal <= 0) {
+            return;
+        }
 
-    firstNameCell.textContent = fName.value;
-    lastNameCell.textContent = lName.value;
-    emailCell.textContent = eMail.value;
-    dataOfBirthCell.textContent = dOfBirth.value;
-    positionCell.textContent = pos.value;
-    salaryCell.textContent = sal.value;
+        let rowElement = document.createElement('tr'); // Създаване на цял нов ред
+        let firstNameCell = document.createElement('td'); // Създаване на колона в реда
+        let lastNameCell = document.createElement('td'); // Създаване на колона в реда
+        let emailCell = document.createElement('td'); // Създаване на колона в реда
+        let dataOfBirthCell = document.createElement('td'); // Създаване на колона в реда
+        let positionCell = document.createElement('td'); // Създаване на колона в реда
+        let salaryCell = document.createElement('td'); // Създаване на колона в реда  
+        let actionCell = document.createElement('td');
+        let editButtonElement = document.createElement('button'); // 
+        let firedButtonElement = document.createElement('button'); // 
 
-    rowElement.appendChild(firstNameCell);
-    rowElement.appendChild(lastNameCell);
-    rowElement.appendChild(emailCell);
-    rowElement.appendChild(dataOfBirthCell);
-    rowElement.appendChild(positionCell);
-    rowElement.appendChild(salaryCell);
+        editButtonElement.textContent = 'Edit';
+        firedButtonElement.textContent = 'Fired';
 
-    newBody.appendChild(rowElement);
+        firstNameCell.textContent = fName; //
+        lastNameCell.textContent = lName; // 
+        emailCell.textContent = eMail; // 
+        dataOfBirthCell.textContent = dOfBirth; // 
+        positionCell.textContent = pos; // 
+        salaryCell.textContent = sal.toFixed(2); //
+
+        rowElement.appendChild(firstNameCell); //   
+        rowElement.appendChild(lastNameCell); //
+        rowElement.appendChild(emailCell); //
+        rowElement.appendChild(dataOfBirthCell); //
+        rowElement.appendChild(positionCell); //
+        rowElement.appendChild(salaryCell); //
+
+        newBody.appendChild(rowElement); //
+    });
+}
+
 
 
 
@@ -90,8 +104,4 @@ function solve() {
 
     // //         return result;
     // //     }
-
-
-
-}
 // solve()
