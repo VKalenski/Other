@@ -1,107 +1,118 @@
 window.addEventListener('load', solve);
 
 function solve() {
-    // Logic for getting information from the hired form   
-    const addBtn = document.getElementById('add-worker'); // референция към съответен DOM обект
-    const firstName = document.getElementById('fname'); // референция към съответен DOM обект
-    const lastName = document.getElementById('lname'); // референция към съответен DOM обект
-    const email = document.getElementById('email'); // референция към съответен DOM обект
-    const dataOfBirth = document.getElementById('birth'); // референция към съответен DOM обект
-    const position = document.getElementById('position'); // референция към съответен DOM обект
-    const salary = document.getElementById('salary'); // референция към съответен DOM обект
-    const newBody = document.getElementById('tbody'); // референция към съответен DOM обект
+    // Get elements by Id
+    let fnameInputElement = document.getElementById('fname'); // Референция към съответен DOM обект
+    let lnameInputElement = document.getElementById('lname'); // Референция към съответен DOM обект
+    let emailInputElement = document.getElementById('email'); // Референция към съответен DOM обект
+    let birthInputElement = document.getElementById('birth'); // Референция към съответен DOM обект
+    let positionInputElement = document.getElementById('position'); // Референция към съответен DOM обект
+    let salaryInputElement = document.getElementById('salary'); // Референция към съответен DOM обект
+    let sumSalaray = document.getElementById('sum'); // Референция към съответен DOM обект
 
-    // Attach event listeners to input form
-    addBtn.addEventListener('click', (e) => {
-        e.preventDefault();        
+    // Create new variable    
+    let sum = 0; // Деклариране на нова променлива
 
-        let fName = firstName.value; //
-        let lName = lastName.value; //
-        let eMail = email.value; //
-        let dOfBirth = dataOfBirth.value; //
-        let pos = position.value; //
-        let sal = Number(salary.value); //         
+    // Create add button
+    let addWorkerButton = document.getElementById('add-worker');
+    addWorkerButton.addEventListener('click', (event) => {
+        event.preventDefault(); // Stop default refresh
 
-        firstName.value = ''; //
-        lastName.value = ''; //
-        email.value = ''; //
-        dataOfBirth.value = ''; //
-        position.value = ''; //
-        salary.value = ''; //
+        let fname = fnameInputElement.value; // Присвояване на стойност
+        let lname = lnameInputElement.value; // Присвояване на стойност
+        let email = emailInputElement.value; // Присвояване на стойност
+        let birth = birthInputElement.value; // Присвояване на стойност
+        let position = positionInputElement.value; // Присвояване на стойност
+        let salary = salaryInputElement.value; // Присвояване на стойност
+
+        // Check for empty fields
+        if (fname != '' && lname != '' && email != '' && birth != '' && position != '' && salary != '') { 
+            let firstTable = document.querySelector('.tbl-header table'); // Създаване на нова таблица
+            let tableBodyElement = document.createElement('tbody');
+            tableBodyElement.id = 'tbody';
+
+            // Create table row with fields and buttons 
+            let tableRow = document.createElement('tr'); // Създаване на нов ред
+
+            let td1 = document.createElement('td'); // Създаване на нова колона в реда
+            td1.textContent = fname; // Прехвърляне на стойност
+
+            let td2 = document.createElement('td'); // Създаване на нова колона в реда
+            td2.textContent = lname; // Прехвърляне на стойност
+
+            let td3 = document.createElement('td'); // Създаване на нова колона в реда
+            td3.textContent = email; // Прехвърляне на стойност
+
+            let td4 = document.createElement('td'); // Създаване на нова колона в реда
+            td4.textContent = birth; // Прехвърляне на стойност
+
+            let td5 = document.createElement('td'); // Създаване на нова колона в реда
+            td5.textContent = position; // Прехвърляне на стойност
+
+            let td6 = document.createElement('td'); // Създаване на нова колона в реда
+            td6.textContent = salary; // Прехвърляне на стойност
+
+            tableRow.appendChild(td1); // Привързване към родител
+            tableRow.appendChild(td2); // Привързване към родител
+            tableRow.appendChild(td3); // Привързване към родител
+            tableRow.appendChild(td4); // Привързване към родител
+            tableRow.appendChild(td5); // Привързване към родител
+            tableRow.appendChild(td6); // Привързване към родител
+
+            let largeTD = document.createElement('td'); // Създаване на нова колона
             
-        if (!fName || !lName || !eMail || !dOfBirth || !pos) {
-            return;
-        }
+            // Create Fired button
+            let btnFired = document.createElement('button'); // Създаване на нов бутон
+            btnFired.textContent = 'Fired'; // Надпис на бутона
+            btnFired.classList.add('fired'); // 
 
-        if (sal <= 0) {
-            return;
-        }
+            // Create Edit button
+            let btnEdit = document.createElement('button'); // Създаване на нов бутон
+            btnEdit.textContent = 'Edit'; // Надпис на бутона
+            btnEdit.classList.add('edit'); //      
 
-        let rowElement = document.createElement('tr'); // Създаване на цял нов ред
-        let firstNameCell = document.createElement('td'); // Създаване на колона в реда
-        let lastNameCell = document.createElement('td'); // Създаване на колона в реда
-        let emailCell = document.createElement('td'); // Създаване на колона в реда
-        let dataOfBirthCell = document.createElement('td'); // Създаване на колона в реда
-        let positionCell = document.createElement('td'); // Създаване на колона в реда
-        let salaryCell = document.createElement('td'); // Създаване на колона в реда  
-        let actionCell = document.createElement('td');
-        let editButtonElement = document.createElement('button'); // 
-        let firedButtonElement = document.createElement('button'); // 
+            largeTD.appendChild(btnFired); // Привързване към родител
+            largeTD.appendChild(btnEdit); // Привързване към родител
 
-        editButtonElement.textContent = 'Edit';
-        firedButtonElement.textContent = 'Fired';
+            tableRow.appendChild(largeTD); // Привързване към родител
 
-        firstNameCell.textContent = fName; //
-        lastNameCell.textContent = lName; // 
-        emailCell.textContent = eMail; // 
-        dataOfBirthCell.textContent = dOfBirth; // 
-        positionCell.textContent = pos; // 
-        salaryCell.textContent = sal.toFixed(2); //
+            tableBodyElement.appendChild(tableRow); // Привързване към родител
+            firstTable.appendChild(tableBodyElement); // Привързване към родител
 
-        rowElement.appendChild(firstNameCell); //   
-        rowElement.appendChild(lastNameCell); //
-        rowElement.appendChild(emailCell); //
-        rowElement.appendChild(dataOfBirthCell); //
-        rowElement.appendChild(positionCell); //
-        rowElement.appendChild(salaryCell); //
+            // Logic for empty fields
+            fnameInputElement.value = '';
+            lnameInputElement.value = '';
+            emailInputElement.value = '';
+            birthInputElement.value = '';
+            positionInputElement.value = '';
+            salaryInputElement.value = '';
 
-        newBody.appendChild(rowElement); //
+            // Logic for salary
+            sum += Number(salary); // Присвояване на стойност
+            sumSalaray.textContent = sum.toFixed(2);
+
+            // Logic for Edit button
+            btnEdit.addEventListener('click', (event1) => {
+                fnameInputElement.value = fname;
+                lnameInputElement.value = lname;
+                emailInputElement.value = email;
+                birthInputElement.value = birth;
+                positionInputElement.value = position;
+                salaryInputElement.value = salary;
+
+                sum -= Number(salary);
+                sumSalaray.textContent = sum.toFixed(2);
+
+                event1.target.parentNode.parentNode.remove();
+            });
+
+            // Logic for Fired button
+            btnFired.addEventListener('click', (event2) => {
+                event2.target.parentNode.parentNode.remove();
+                let salary = Number(event2.target.parentNode.parentNode.querySelector('td:nth-child(6)').textContent);
+                sum -= Number(salary);
+                sumSalaray.textContent = sum.toFixed(2);
+            });
+        };
     });
-}
-
-
-
-
-    //     const fName = firstName.value;
-    //     const lName = lastName.value;
-    //     const eMail = email.value;
-    //     const dOfBirth = dataOfBirth.value;
-    //     const pos = position.value;
-    //     const sal = salary.value;
-
-    //     firstName.value = ''; // по този начин изчистваме value -> правим го празен string
-    //     lastName.value = ''; // по този начин изчистваме value -> правим го празен string
-    //     email.value = ''; // по този начин изчистваме value -> правим го празен string
-    //     dataOfBirth.value = ''; // по този начин изчистваме value -> правим го празен string
-    //     position.value = ''; // по този начин изчистваме value -> правим го празен string
-    //     salary.value = ''; // по този начин изчистваме value -> правим го празен string
-
-    //     const element = e('submit', fName, lName, eMail, dOfBirth, pos, sal, 'tbl-content')
-    // }
-
-
-    // Logic for Edit button - remove person from list and salary change
-
-
-    //     // Logic for Fired button - remove person from list
-
-    // //     function e(type, content, className) {
-    // //         const result = document.createElement(type);
-    // //         result.textContent = content;
-    // //         if (className) {
-    // //             result.className = className;
-    // //         }
-
-    // //         return result;
-    // //     }
-// solve()
+};
