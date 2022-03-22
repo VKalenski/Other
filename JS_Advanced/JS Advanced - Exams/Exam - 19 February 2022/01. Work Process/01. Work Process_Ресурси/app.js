@@ -15,8 +15,8 @@ function solve() {
 
     // Create add button
     let addWorkerButton = document.getElementById('add-worker');
-    addWorkerButton.addEventListener('click', (event) => {
-        event.preventDefault(); // Stop default refresh
+    addWorkerButton.addEventListener('click', (eventOne) => {
+        eventOne.preventDefault(); // Stop default refresh
 
         let fname = fnameInputElement.value; // Присвояване на стойност
         let lname = lnameInputElement.value; // Присвояване на стойност
@@ -92,7 +92,7 @@ function solve() {
             sumSalaray.textContent = sum.toFixed(2);
 
             // Logic for Edit button
-            btnEdit.addEventListener('click', (event1) => {
+            btnEdit.addEventListener('click', (eventTwo) => {
                 fnameInputElement.value = fname;
                 lnameInputElement.value = lname;
                 emailInputElement.value = email;
@@ -103,16 +103,20 @@ function solve() {
                 sum -= Number(salary);
                 sumSalaray.textContent = sum.toFixed(2);
 
-                event1.target.parentNode.parentNode.remove();
+                eventTwo.target.parentNode.parentNode.remove();
             });
 
             // Logic for Fired button
-            btnFired.addEventListener('click', (event2) => {
-                event2.target.parentNode.parentNode.remove();
-                let salary = Number(event2.target.parentNode.parentNode.querySelector('td:nth-child(6)').textContent);
+            btnFired.addEventListener('click', (eventNext) => {
+                eventNext.target.parentNode.parentNode.remove();
+                let salary = Number(eventNext.target.parentNode.parentNode.querySelector('td:nth-child(6)').textContent);
                 sum -= Number(salary);
                 sumSalaray.textContent = sum.toFixed(2);
             });
         };
     });
 };
+
+// classList
+// target
+// parentNode
