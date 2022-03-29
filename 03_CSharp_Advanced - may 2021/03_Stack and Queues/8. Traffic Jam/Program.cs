@@ -27,10 +27,11 @@ namespace _8._Traffic_Jam
                     }
                     continue;
                 }
+                
                 addCars.Enqueue(input);
             }
+            
             Console.WriteLine($"{passesCars.Count} cars passed the crossroads.");
-
         }
 
         private static void PrintDurringCars(Queue<string> addCars, Queue<string> passesCars)
