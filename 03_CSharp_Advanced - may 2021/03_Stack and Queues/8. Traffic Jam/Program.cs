@@ -23,8 +23,10 @@ namespace _8._Traffic_Jam
                         {
                             continue;
                         }
+                        
                         PrintDurringCars(addCars, passesCars);
                     }
+                    
                     continue;
                 }
                 
