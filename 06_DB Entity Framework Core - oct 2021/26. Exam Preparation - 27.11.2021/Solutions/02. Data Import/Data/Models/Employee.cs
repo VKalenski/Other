@@ -25,6 +25,6 @@
         [MaxLength(GlobalConstants.PHONE_MAX_LENGTH)]
         public string Phone { get; set; }
 
-        public virtual ICollection<EmployeeTask> EmployeesTasks { get; set; }
+        public virtual ICollection<EmployeeTask> EmployeesTasks { get; set; }        
     }
 }

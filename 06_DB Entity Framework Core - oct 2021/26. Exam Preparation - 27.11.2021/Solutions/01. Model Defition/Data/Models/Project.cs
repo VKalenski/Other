@@ -1,11 +1,10 @@
-﻿namespace TeisterMask.Data.Models
+﻿using System.Collections.Generic;
+using System;
+using System.ComponentModel.DataAnnotations;
+using TeisterMask.Common;
+
+namespace TeisterMask.Data.Models
 {
-    using System.Collections.Generic;
-
-    using System;
-    using System.ComponentModel.DataAnnotations;
-    using TeisterMask.Common;
-
     public class Project
     {
         public Project()

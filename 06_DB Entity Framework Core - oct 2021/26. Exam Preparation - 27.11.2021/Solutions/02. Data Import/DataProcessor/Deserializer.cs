@@ -9,12 +9,9 @@
     using TeisterMask.Data.Models;
     using TeisterMask.Data.Models.Enums;
     using TeisterMask.DataProcessor.ImportDto;
-
     using System;
     using System.Collections.Generic;
-
     using System.ComponentModel.DataAnnotations;
-
     using Data;
 
     using ValidationContext = System.ComponentModel.DataAnnotations.ValidationContext;

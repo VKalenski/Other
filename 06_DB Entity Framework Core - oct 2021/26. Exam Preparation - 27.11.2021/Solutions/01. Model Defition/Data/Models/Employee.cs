@@ -1,16 +1,16 @@
-﻿namespace TeisterMask.Data.Models
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using TeisterMask.Common;
+
+namespace TeisterMask.Data.Models
 {
-    using System.Collections.Generic;
-
-    using System.ComponentModel.DataAnnotations;
-    using TeisterMask.Common;
-
     public class Employee
     {
         public Employee()
         {
             this.EmployeesTasks = new HashSet<EmployeeTask>();
         }
+
         [Key]
         public int Id { get; set; }
 
