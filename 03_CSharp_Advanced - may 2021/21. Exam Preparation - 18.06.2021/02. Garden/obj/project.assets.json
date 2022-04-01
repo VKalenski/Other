@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Example\\03_CSharp_Advanced - may 2021\\21. Exam Preparation - 18.06.2021\\02. Garden\\02. Garden.csproj",
+      "projectUniqueName": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\03_CSharp_Advanced - may 2021\\21. Exam Preparation - 18.06.2021\\02. Garden\\02. Garden.csproj",
       "projectName": "02. Garden",
-      "projectPath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Example\\03_CSharp_Advanced - may 2021\\21. Exam Preparation - 18.06.2021\\02. Garden\\02. Garden.csproj",
+      "projectPath": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\03_CSharp_Advanced - may 2021\\21. Exam Preparation - 18.06.2021\\02. Garden\\02. Garden.csproj",
       "packagesPath": "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Example\\03_CSharp_Advanced - may 2021\\21. Exam Preparation - 18.06.2021\\02. Garden\\obj\\",
+      "outputPath": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\03_CSharp_Advanced - may 2021\\21. Exam Preparation - 18.06.2021\\02. Garden\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vilislav.kalenski\\AppData\\Roaming\\NuGet\\NuGet.Config",

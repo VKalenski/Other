@@ -22,7 +22,7 @@ namespace _02._Garden
 
             string commandInput;
 
-            while ((commandInput = Console.ReadLine()) != "Bloom Bloom Plow")//Input can be wrong!
+            while ((commandInput = Console.ReadLine()) != "Bloom Bloom Plow") //Input can be wrong!
             {
                 string[] command = commandInput.Split();
 
@@ -34,8 +34,6 @@ namespace _02._Garden
                     for (int i = 0; i < n; i++)
                     {
                         matrix[i, col]++;
-
-
                     }
 
                     for (int i = 0; i < m; i++)
