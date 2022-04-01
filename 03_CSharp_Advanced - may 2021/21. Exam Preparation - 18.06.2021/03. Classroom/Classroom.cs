@@ -15,7 +15,6 @@ namespace ClassroomProject
             students = new List<Student>();
         }
         public int Capacity { get; }
-
         public int Count => students.Count;
 
         public string RegisterStudent(Student student)
@@ -48,7 +47,8 @@ namespace ClassroomProject
             {
                 var sb = new StringBuilder();
                 sb.AppendLine($"Subject: {subject}");
-                sb.AppendLine("Students:");
+                sb.AppendLine($"Students:");
+
                 foreach (Student student in studentSubject)
                 {
                     sb.AppendLine($"{student.FirstName} {student.LastName}");
@@ -62,13 +62,7 @@ namespace ClassroomProject
 
         public int GetStudentsCount() => Count;
 
-        //public Student GetStudent(string firstName, string lastName)
-        //{
-        //    var currentStudent = students.FirstOrDefault(x => x.FirstName == firstName && x.LastName == lastName);
-        //    return currentStudent;
-        //}
-
         public Student GetStudent(string firstName, string lastName) =>
-           students.FirstOrDefault(x => x.FirstName == firstName && x.LastName == lastName);
+            students.FirstOrDefault(x => x.FirstName == firstName && x.LastName == lastName);
     }
 }

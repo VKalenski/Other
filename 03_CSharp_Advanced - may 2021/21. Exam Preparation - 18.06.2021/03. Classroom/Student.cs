@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
+using System.Linq;
 using System.Text;
 
 namespace ClassroomProject
@@ -14,14 +14,12 @@ namespace ClassroomProject
             Subject = subject;
         }
         public string FirstName { get; set; }
-
         public string LastName { get; set; }
-
         public string Subject { get; set; }
 
         public override string ToString()
         {
-            return $"Student: First Name = {FirstName}, Last Name = {LastName}, Subject = {Subject}";
+            return $"Student: First name = {FirstName}, Last name = {LastName}, Subject = {Subject}";
         }
     }
 }
