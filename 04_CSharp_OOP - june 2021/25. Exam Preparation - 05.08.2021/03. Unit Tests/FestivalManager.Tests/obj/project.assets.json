@@ -4641,19 +4641,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\19-12-2020\\FestivalManager.Tests\\FestivalManager.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager.Tests\\FestivalManager.Tests.csproj",
       "projectName": "FestivalManager.Tests",
-      "projectPath": "C:\\Users\\lenovo\\source\\repos\\19-12-2020\\FestivalManager.Tests\\FestivalManager.Tests.csproj",
-      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\source\\repos\\19-12-2020\\FestivalManager.Tests\\obj\\",
+      "projectPath": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager.Tests\\FestivalManager.Tests.csproj",
+      "packagesPath": "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vilislav.kalenski\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4667,8 +4667,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\lenovo\\source\\repos\\19-12-2020\\FestivalManager\\FestivalManager.csproj": {
-              "projectPath": "C:\\Users\\lenovo\\source\\repos\\19-12-2020\\FestivalManager\\FestivalManager.csproj"
+            "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager\\FestivalManager.csproj": {
+              "projectPath": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager\\FestivalManager.csproj"
             }
           }
         }
@@ -4711,7 +4711,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

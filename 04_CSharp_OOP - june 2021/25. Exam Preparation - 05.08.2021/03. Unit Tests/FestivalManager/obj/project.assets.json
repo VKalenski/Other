@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\19-12-2020\\FestivalManager\\FestivalManager.csproj",
+      "projectUniqueName": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager\\FestivalManager.csproj",
       "projectName": "FestivalManager",
-      "projectPath": "C:\\Users\\lenovo\\source\\repos\\19-12-2020\\FestivalManager\\FestivalManager.csproj",
-      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\source\\repos\\19-12-2020\\FestivalManager\\obj\\",
+      "projectPath": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager\\FestivalManager.csproj",
+      "packagesPath": "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vilislav.kalenski\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
