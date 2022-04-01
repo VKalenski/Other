@@ -18,3 +18,10 @@ C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. 
 C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\obj\Debug\netcoreapp3.1\03.Classroom.csproj.CoreCompileInputs.cache
 C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\obj\Debug\netcoreapp3.1\03.Classroom.dll
 C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\obj\Debug\netcoreapp3.1\03.Classroom.pdb
+C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\bin\Debug\netcoreapp3.1\03.Classroom.exe
+C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\bin\Debug\netcoreapp3.1\03.Classroom.deps.json
+C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\bin\Debug\netcoreapp3.1\03.Classroom.runtimeconfig.json
+C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\bin\Debug\netcoreapp3.1\03.Classroom.runtimeconfig.dev.json
+C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\bin\Debug\netcoreapp3.1\03.Classroom.dll
+C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\bin\Debug\netcoreapp3.1\03.Classroom.pdb
+C:\Users\vilislav.kalenski\Desktop\SoftUni_02\03_CSharp_Advanced - may 2021\21. Exam Preparation - 18.06.2021\03. Classroom\obj\Debug\netcoreapp3.1\03.Classroom.genruntimeconfig.cache
