@@ -1,0 +1,14 @@
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\obj\Debug\netcoreapp3.0\Guild.csproj.AssemblyReference.cache
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\obj\Debug\netcoreapp3.0\Guild.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\obj\Debug\netcoreapp3.0\Guild.AssemblyInfoInputs.cache
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\obj\Debug\netcoreapp3.0\Guild.AssemblyInfo.cs
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\obj\Debug\netcoreapp3.0\Guild.csproj.CoreCompileInputs.cache
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\bin\Debug\netcoreapp3.0\Guild.exe
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\bin\Debug\netcoreapp3.0\Guild.deps.json
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\bin\Debug\netcoreapp3.0\Guild.runtimeconfig.json
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\bin\Debug\netcoreapp3.0\Guild.runtimeconfig.dev.json
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\bin\Debug\netcoreapp3.0\Guild.dll
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\bin\Debug\netcoreapp3.0\Guild.pdb
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\obj\Debug\netcoreapp3.0\Guild.dll
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\obj\Debug\netcoreapp3.0\Guild.pdb
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2020.02.22_C# Advanced Exam\03. Guild\03. Guild_Solution\Guild\obj\Debug\netcoreapp3.0\Guild.genruntimeconfig.cache

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ClassroomProject
+﻿namespace ClassroomProject
 {
     public class Student
     {
