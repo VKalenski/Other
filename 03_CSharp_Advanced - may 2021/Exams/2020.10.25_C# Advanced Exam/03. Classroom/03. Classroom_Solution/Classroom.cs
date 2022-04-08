@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassroomProject
 {
-    internal class Classroom
+    public class Classroom
     {
         private List<Student> students;
 
@@ -13,9 +13,11 @@ namespace ClassroomProject
             Capacity = capacity;
             students = new List<Student>();
         }
+
         public int Capacity { get; set; }
-        public int Count 
-        { 
+
+        public int Count
+        {
             get
             {
                 return students.Count;
