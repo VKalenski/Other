@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace FishingNet
 {
     public class Net
     {
-        ICollection<Fish> fishList;
+        private readonly ICollection<Fish> fishList;
 
         public Net(string material, int capacity)
         {
@@ -25,20 +26,21 @@ namespace FishingNet
             }   
         }
 
+        public IReadOnlyCollection<Fish> Fish => (IReadOnlyCollection<Fish>)this.fishList;
+
         public string AddFish(Fish fish)
         {
             if (string.IsNullOrWhiteSpace(fish.FishType) || fish.Length <= 0 || fish.Weight <= 0)
             {
                 return $"Invalid fish.";
             }
-            else if (fishList.Count >= Capacity)
+
+            if (Fish.Count + 1 > Capacity)
             {
                 return "Fishing net is full.";
-            }            
-
+            }
             this.fishList.Add(fish);
-
-            return $"Successfully added {fish} to the fishing net.";
+            return $"Successfully added {fish.FishType} to the fishing net.";
         }
 
         public bool ReleaseFish(double weight)
@@ -51,14 +53,29 @@ namespace FishingNet
             return false;
         }
 
-        Fish GetFish(string fishType)
+        public Fish GetFish(string fishType)
         {
-            string returnFish = null;
-            if (returnFish)
-            {
+            var fish = this.fishList.FirstOrDefault(e => e.FishType == fishType);
+            return fish;
+        }
 
+        public Fish GetBiggestFish()
+        {
+            var longestFish = this.fishList.Max(e => e.Length);
+            var fish = this.fishList.FirstOrDefault(e => e.Length == longestFish);
+            return fish;
+        }
+
+        public string Report()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Into the {this.Material}:");
+            foreach (var item in Fish.OrderByDescending(x => x.Length))
+            {
+                sb.AppendLine($"{item.ToString()}");
             }
-            return returnFish;
+
+            return sb.ToString().TrimEnd();           
         }
     }
 }

@@ -1,4 +1,7 @@
-﻿namespace FishingNet
+﻿using System;
+using System.Collections.Generic;
+
+namespace FishingNet
 {
     public class Fish
     {
