@@ -1,0 +1,4 @@
+	
+	https://www.youtube.com/watch?v=-zu7qioThP4 -> video
+	
+	https://github.com/shekeriev/softuni-k8s-seminar -> Demo

@@ -1,0 +1,14 @@
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\bin\Debug\netcoreapp3.1\01. The Fight For Gondor.exe
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\bin\Debug\netcoreapp3.1\01. The Fight For Gondor.deps.json
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\bin\Debug\netcoreapp3.1\01. The Fight For Gondor.runtimeconfig.json
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\bin\Debug\netcoreapp3.1\01. The Fight For Gondor.runtimeconfig.dev.json
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\bin\Debug\netcoreapp3.1\01. The Fight For Gondor.dll
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\bin\Debug\netcoreapp3.1\01. The Fight For Gondor.pdb
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\obj\Debug\netcoreapp3.1\01. The Fight For Gondor.csproj.AssemblyReference.cache
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\obj\Debug\netcoreapp3.1\01. The Fight For Gondor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\obj\Debug\netcoreapp3.1\01. The Fight For Gondor.AssemblyInfoInputs.cache
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\obj\Debug\netcoreapp3.1\01. The Fight For Gondor.AssemblyInfo.cs
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\obj\Debug\netcoreapp3.1\01. The Fight For Gondor.csproj.CoreCompileInputs.cache
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\obj\Debug\netcoreapp3.1\01. The Fight For Gondor.dll
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\obj\Debug\netcoreapp3.1\01. The Fight For Gondor.pdb
+C:\Users\vilislav.kalenski\Documents\GitHub\Other\03_CSharp_Advanced - may 2021\Exams\2021.02.20_C# Advanced Exam\01. The Fight for Gondor\obj\Debug\netcoreapp3.1\01. The Fight For Gondor.genruntimeconfig.cache
