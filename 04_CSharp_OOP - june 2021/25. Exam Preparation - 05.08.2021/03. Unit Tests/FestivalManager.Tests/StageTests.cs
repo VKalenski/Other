@@ -16,7 +16,6 @@ namespace FestivalManager.Tests
         {
             Performer performer = new Performer("Georgi", "Ivanow", 35);
 
-
             string expectedFullName = "Georgi Ivanow";
             int expectedAge = 35;
 

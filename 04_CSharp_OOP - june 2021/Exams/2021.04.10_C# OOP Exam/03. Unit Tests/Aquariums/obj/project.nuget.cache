@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wv3LR8fxbTd7Xl+T7c8NR+sXaVPJhnYQYnemKXhBrEL8G+iz/oOGapC9t/FZGeKnJR0VEGWRfT0lGa5U6FcQBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\04_CSharp_OOP - june 2021\\Exams\\2021.04.10_C# OOP Exam\\03. Unit Tests\\Aquariums\\Aquariums.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

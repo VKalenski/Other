@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "F0keGonAKTacHN7/XFOCgD4Jcch7kuZRWgI5eubRmLmFsg4wB5ZhXzNjt82V1lCQsELSpOrIA2tTml3O+dlkeQ==",
+  "dgSpecHash": "iuHbutMFUGvGSxsFHVlzhv3l4/TmVblAvIMw6pt8lUCUMc0fvbitt0w9hyk6TccF14azZSwDkE219GD6FJTAOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\source\\repos\\10-04--2021\\AquaShop\\AquaShop.csproj",
+  "projectFilePath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\04_CSharp_OOP - june 2021\\26. Exam Preparation - 06.08.2021\\01. Structure & 02. Business Logic\\AquaShop\\AquaShop.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
-    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -7013,19 +7013,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\": {}
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Example\\06_DB Entity Framework Core - oct 2021\\26. Exam Preparation - 27.11.2021\\Solutions\\02. Data Import\\TeisterMask.csproj",
+      "projectUniqueName": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\06_DB Entity Framework Core - oct 2021\\26. Exam Preparation - 27.11.2021\\Solutions\\02. Data Import\\TeisterMask.csproj",
       "projectName": "TeisterMask",
-      "projectPath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Example\\06_DB Entity Framework Core - oct 2021\\26. Exam Preparation - 27.11.2021\\Solutions\\02. Data Import\\TeisterMask.csproj",
+      "projectPath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\06_DB Entity Framework Core - oct 2021\\26. Exam Preparation - 27.11.2021\\Solutions\\02. Data Import\\TeisterMask.csproj",
       "packagesPath": "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Example\\06_DB Entity Framework Core - oct 2021\\26. Exam Preparation - 27.11.2021\\Solutions\\02. Data Import\\obj\\",
+      "outputPath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\06_DB Entity Framework Core - oct 2021\\26. Exam Preparation - 27.11.2021\\Solutions\\02. Data Import\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\vilislav.kalenski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7033,6 +7038,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7083,7 +7089,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

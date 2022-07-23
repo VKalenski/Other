@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AtnWl10APSyC8fpBFe3dVsDlCLVFMAvxXj4MoR90He82SKiQsiPWzznA2Gsttog0hLlQNmX6j8mZaYdzYkKjfA==",
+  "dgSpecHash": "B6xFcEe8Eh/IyD8HjeFCsoxST8yE+hXMXtYob2mJrk3OkDP1K43k8bL71Oi43HiKU9sKywaiPSEL6og6ADzeng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Example\\06_DB Entity Framework Core - oct 2021\\26. Exam Preparation - 27.11.2021\\Solutions\\01. Model Defition\\TeisterMask.csproj",
+  "projectFilePath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\06_DB Entity Framework Core - oct 2021\\26. Exam Preparation - 27.11.2021\\Solutions\\01. Model Defition\\TeisterMask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",

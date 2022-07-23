@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "haZLemrC95Dk+4/zbrLGkufELuJxip1p8R6i5b/yMMIwGsHrcVwb3Gru24Fhd6ZRQ5kZv6zXaigu2s/Fa28lkw==",
+  "dgSpecHash": "BYX76TutdtSTxgd992ooYTXVPi13VgqL0CU/Xklb1YNCHAjhTFcMrd6KZeQndcJzrS32QQvUeoMVPlfUwtfbbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vilislav.kalenski\\Desktop\\SoftUni_02\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager.Tests\\FestivalManager.Tests.csproj",
+  "projectFilePath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\04_CSharp_OOP - june 2021\\25. Exam Preparation - 05.08.2021\\03. Unit Tests\\FestivalManager.Tests\\FestivalManager.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.codecoverage\\16.8.0\\microsoft.codecoverage.16.8.0.nupkg.sha512",
     "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

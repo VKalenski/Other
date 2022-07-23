@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\10-04--2021\\AquaShop\\AquaShop.csproj",
+      "projectUniqueName": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\04_CSharp_OOP - june 2021\\26. Exam Preparation - 06.08.2021\\01. Structure & 02. Business Logic\\AquaShop\\AquaShop.csproj",
       "projectName": "AquaShop",
-      "projectPath": "C:\\Users\\lenovo\\source\\repos\\10-04--2021\\AquaShop\\AquaShop.csproj",
-      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\source\\repos\\10-04--2021\\AquaShop\\obj\\",
+      "projectPath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\04_CSharp_OOP - june 2021\\26. Exam Preparation - 06.08.2021\\01. Structure & 02. Business Logic\\AquaShop\\AquaShop.csproj",
+      "packagesPath": "C:\\Users\\vilislav.kalenski\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vilislav.kalenski\\Documents\\GitHub\\Other\\04_CSharp_OOP - june 2021\\26. Exam Preparation - 06.08.2021\\01. Structure & 02. Business Logic\\AquaShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vilislav.kalenski\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
